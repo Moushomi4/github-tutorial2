@@ -39,3 +39,4 @@ MAIN (main code)-> STAGING(testing)-> DEVELOPMENT -> FEATURE
 14. git add .
 15. git commit -m "added a new file in dev branch"
 16. git log (HEAD - points to the latest commits)
+added a new branch( Staging)
