@@ -25,3 +25,13 @@ for pushing it into the repository we need to create a  Personal Access Token if
 FORK -copying from github to github
 CLONE -from github to local.
 (trying from repos)
+10. git pull origin main. (got the text which we added in our repository)
+
+PUSH- from local to github.
+PULL- from github to local.
+
+11. git branch.
+
+MAIN -> DEVELOPMENT -> feature
+12. git branch dev
+13. git switch dev (it creates a copy of main branch and also can add additional features )
