@@ -24,3 +24,4 @@ for pushing it into the repository we need to create a  Personal Access Token if
 
 FORK -copying from github to github
 CLONE -from github to local.
+(trying from repos)
