@@ -6,11 +6,18 @@ GIT :(Version Control System)
 2. git status
 
 THREE STAGES:
-(i) Untracked- when the file is in file system.
-(ii) Staged- when we need to decide whether we and to send them in VCS OR not.()
-(iii) Tracked- when we put the file inside the VCS.
+(i) Untracked- when the file is in file system. (RED)
+(ii) Staged- when we need to decide whether we and to send them in VCS OR not.(GREEN) (using "git add filename")
+(iii) Tracked- when we put the file inside the VCS.(using " git commit -m ".."  ")
 
 3. git add testing.cpp
 4. git status ("git rm --cache testing.cpp" to unstage)
 5. git add . (to add all the files)
 6. git commit -m "testing.cpp and Commands.txt added"
+(now after commiting the file if you delete the file "rm testing.cpp" you can recover it ...first write "git status" it will show you the deleted files and the write "git restore testing.cpp" it will get you back the deleted file.)
+
+CReated a new repository
+for pushing it into the repository we need to create a  Personal Access Token if required.
+7.git remote add origin repo-URL
+8.git remote set-url origin https://token@repo-URL
+9.
