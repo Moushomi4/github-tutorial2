@@ -1,0 +1,16 @@
+FILE SYSTEM: (It cannot recover deleted items)
+ls (only provides information about the directory,LastWriting Time Length, and the Name of the folders)
+
+GIT :(Version Control System)
+1. git init(at the empty folder devops2)
+2. git status
+
+THREE STAGES:
+(i) Untracked- when the file is in file system.
+(ii) Staged- when we need to decide whether we and to send them in VCS OR not.()
+(iii) Tracked- when we put the file inside the VCS.
+
+3. git add testing.cpp
+4. git status ("git rm --cache testing.cpp" to unstage)
+5. git add . (to add all the files)
+6. git commit -m "testing.cpp and Commands.txt added"
