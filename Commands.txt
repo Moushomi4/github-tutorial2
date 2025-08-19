@@ -18,6 +18,9 @@ THREE STAGES:
 
 CReated a new repository
 for pushing it into the repository we need to create a  Personal Access Token if required.
-7.git remote add origin repo-URL
-8.git remote set-url origin https://token@repo-URL
-9.
+7. git remote add origin repo-URL
+8. git remote set-url origin https://token@repo-URL
+9. git push origin main
+
+FORK -copying from github to github
+CLONE -from github to local.
